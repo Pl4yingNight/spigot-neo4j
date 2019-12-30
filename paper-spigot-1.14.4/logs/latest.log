@@ -1,0 +1,134 @@
+[19:40:15] [Server thread/INFO]: Starting minecraft server version 1.14.4
+[19:40:15] [Server thread/INFO]: Loading properties
+[19:40:15] [Server thread/INFO]: This server is running Paper version git-Paper-226 (MC: 1.14.4) (Implementing API version 1.14.4-R0.1-SNAPSHOT)
+[19:40:16] [Server thread/INFO]: Debug logging is disabled
+[19:40:16] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[19:40:16] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:40:16] [Server thread/INFO]: Default game type: SURVIVAL
+[19:40:16] [Server thread/INFO]: Generating keypair
+[19:40:16] [Server thread/INFO]: Starting Minecraft server on *:25699
+[19:40:16] [Server thread/INFO]: Using default channel type
+[19:40:19] [Server thread/INFO]: [TestPlugin] Loading TestPlugin v1
+[19:40:19] [Server thread/INFO]: SPIGOT CLASSLOADER: org.bukkit.plugin.java.PluginClassLoader@4f98907a
+[19:40:19] [Server thread/WARN]: org.neo4j.ogm.driver.NativeTypesNotAvailableException: Cannot use native types. Make sure you have the native module for your driver on the classpath.
+[19:40:19] [Server thread/WARN]: 	at org.neo4j.ogm.driver.AbstractConfigurableDriver.initializeTypeSystem(AbstractConfigurableDriver.java:186)
+[19:40:19] [Server thread/WARN]: 	at org.neo4j.ogm.driver.AbstractConfigurableDriver.configure(AbstractConfigurableDriver.java:122)
+[19:40:19] [Server thread/WARN]: 	at org.neo4j.ogm.drivers.bolt.driver.BoltDriver.configure(BoltDriver.java:110)
+[19:40:19] [Server thread/WARN]: 	at org.neo4j.ogm.session.SessionFactory.newConfiguredDriverInstance(SessionFactory.java:249)
+[19:40:19] [Server thread/WARN]: 	at org.neo4j.ogm.session.SessionFactory.<init>(SessionFactory.java:87)
+[19:40:19] [Server thread/WARN]: 	at at.pl4yingnight.testplugin.database.Neo4j.conntect(Neo4j.java:53)
+[19:40:19] [Server thread/WARN]: 	at at.pl4yingnight.testplugin.TestPlugin.onLoad(TestPlugin.java:38)
+[19:40:19] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.loadPlugins(CraftServer.java:360)
+[19:40:19] [Server thread/WARN]: 	at net.minecraft.server.v1_14_R1.DedicatedServer.init(DedicatedServer.java:226)
+[19:40:19] [Server thread/WARN]: 	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:876)
+[19:40:19] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[19:40:19] [Server thread/INFO]: [TestPlugin] Loaded
+[19:40:19] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:40:19] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:40:19] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[19:40:19] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19:40:19] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:40:20] [Server thread/INFO]: Preparing level "world"
+[19:40:20] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[19:40:21] [Server thread/INFO]: Loaded 6 recipes
+[19:40:21] [Server thread/INFO]: -------- World Settings For [world] --------
+[19:40:21] [Server thread/INFO]: View Distance: 10
+[19:40:21] [Server thread/INFO]: Item Merge Radius: 2.5
+[19:40:21] [Server thread/INFO]: Item Despawn Rate: 6000
+[19:40:21] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[19:40:21] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[19:40:21] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[19:40:21] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[19:40:21] [Server thread/INFO]: Experience Merge Radius: 3.0
+[19:40:21] [Server thread/INFO]: Mob Spawn Range: 8
+[19:40:21] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[19:40:21] [Server thread/INFO]: Cane Growth Modifier: 100%
+[19:40:21] [Server thread/INFO]: Melon Growth Modifier: 100%
+[19:40:21] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[19:40:21] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[19:40:21] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[19:40:21] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[19:40:21] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[19:40:21] [Server thread/INFO]: Potato Growth Modifier: 100%
+[19:40:21] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[19:40:21] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[19:40:21] [Server thread/INFO]: Vine Growth Modifier: 100%
+[19:40:21] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[19:40:21] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[19:40:21] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[19:40:21] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[19:40:21] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[19:40:21] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[19:40:21] [Server thread/INFO]: Max TNT Explosions: 100
+[19:40:21] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[19:40:21] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[19:40:21] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[19:40:22] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[19:40:22] [Server thread/INFO]: View Distance: 10
+[19:40:22] [Server thread/INFO]: Item Merge Radius: 2.5
+[19:40:22] [Server thread/INFO]: Item Despawn Rate: 6000
+[19:40:22] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[19:40:22] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[19:40:22] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[19:40:22] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[19:40:22] [Server thread/INFO]: Experience Merge Radius: 3.0
+[19:40:22] [Server thread/INFO]: Mob Spawn Range: 8
+[19:40:22] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[19:40:22] [Server thread/INFO]: Cane Growth Modifier: 100%
+[19:40:22] [Server thread/INFO]: Melon Growth Modifier: 100%
+[19:40:22] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[19:40:22] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[19:40:22] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[19:40:22] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[19:40:22] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[19:40:22] [Server thread/INFO]: Potato Growth Modifier: 100%
+[19:40:22] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[19:40:22] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[19:40:22] [Server thread/INFO]: Vine Growth Modifier: 100%
+[19:40:22] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[19:40:22] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[19:40:22] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[19:40:22] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[19:40:22] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[19:40:22] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[19:40:22] [Server thread/INFO]: Max TNT Explosions: 100
+[19:40:22] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[19:40:22] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[19:40:22] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[19:40:22] [Server thread/INFO]: Preparing start region for dimension 'world'/minecraft:overworld
+[19:40:22] [Server thread/INFO]: Preparing spawn area: 0%
+[19:40:22] [Server thread/INFO]: Preparing spawn area: 0%
+[19:40:24] [Server-Worker-3/INFO]: Preparing spawn area: 55%
+[19:40:24] [Server-Worker-1/INFO]: Preparing spawn area: 55%
+[19:40:24] [Server-Worker-3/INFO]: Preparing spawn area: 55%
+[19:40:24] [Server-Worker-3/INFO]: Preparing spawn area: 55%
+[19:40:25] [Server-Worker-5/INFO]: Preparing spawn area: 100%
+[19:40:25] [Server-Worker-3/INFO]: Preparing spawn area: 100%
+[19:40:26] [Server-Worker-5/INFO]: Preparing spawn area: 100%
+[19:40:26] [Server thread/INFO]: Preparing spawn area: 100%
+[19:40:27] [Server-Worker-3/INFO]: Preparing spawn area: 100%
+[19:40:27] [Server thread/INFO]: Preparing spawn area: 100%
+[19:40:28] [Server thread/INFO]: Preparing spawn area: 100%
+[19:40:28] [Server thread/INFO]: Loaded 441 spawn chunks for world world
+[19:40:28] [Server thread/INFO]: Time elapsed: 6112 ms
+[19:40:28] [Server thread/INFO]: Preparing start region for dimension 'world_the_end'/minecraft:the_end
+[19:40:28] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[19:40:28] [Server-Worker-4/INFO]: Preparing spawn area: 0%
+[19:40:29] [Server-Worker-3/INFO]: Preparing spawn area: 54%
+[19:40:29] [Server-Worker-5/INFO]: Preparing spawn area: 100%
+[19:40:30] [Server thread/INFO]: Loaded 441 spawn chunks for world world_the_end
+[19:40:30] [Server thread/INFO]: Time elapsed: 1619 ms
+[19:40:30] [Server thread/INFO]: [TestPlugin] Enabling TestPlugin v1
+[19:40:30] [Server thread/INFO]: [TestPlugin] Enabled
+[19:40:30] [Server thread/INFO]: Done (10.100s)! For help, type "help"
+[19:40:30] [Server thread/INFO]: Stopping server
+[19:40:30] [Server thread/INFO]: [TestPlugin] Disabling TestPlugin v1
+[19:40:30] [Server thread/INFO]: [TestPlugin] Disabled
+[19:40:30] [Server thread/INFO]: Saving players
+[19:40:30] [Server thread/INFO]: Saving worlds
+[19:40:30] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[19:40:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:40:31] [Server thread/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
+[19:40:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:40:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:40:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
