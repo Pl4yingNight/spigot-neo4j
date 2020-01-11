@@ -1,17 +1,12 @@
 package at.pl4yingnight.testplugin.database;
 
-import java.lang.reflect.Constructor;
 import java.util.ArrayList;
 import java.util.List;
 
 import org.neo4j.ogm.config.Configuration;
 import org.neo4j.ogm.config.Configuration.Builder;
-import org.neo4j.ogm.driver.TypeSystem;
 import org.neo4j.ogm.session.Session;
 import org.neo4j.ogm.session.SessionFactory;
-import org.neo4j.ogm.support.ClassUtils;
-
-import at.pl4yingnight.testplugin.TestPlugin;
 
 public class Neo4j {
 
@@ -25,27 +20,6 @@ public class Neo4j {
 		builder.useNativeTypes();
 		configuration = builder.build();
 		
-	}
-
-	public void isolatedError() {
-		ClassLoader loader = ClassUtils.getDefaultClassLoader();
-		
-		if(TestPlugin.plugin.getSpigotLoader().equals(loader))
-			System.out.println("SAME 2");
-		
-		System.out.println("Classloader: "+loader.toString());
-		try {
-			@SuppressWarnings("unchecked")
-			Class<TypeSystem> nativeTypesClass = (Class<TypeSystem>) Class
-			    .forName("org.neo4j.ogm.drivers.bolt.types.BoltNativeTypes");// changed
-			System.out.println("CLASS FOUND");
-			Constructor<TypeSystem> ctor = nativeTypesClass.getDeclaredConstructor();
-            ctor.setAccessible(true);
-            ctor.newInstance();
-            System.out.println("TYPESYSTEM LOADED");
-		} catch (Exception e1) {
-			e1.printStackTrace();
-		}
 	}
 	
 	public boolean conntect() {

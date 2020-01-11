@@ -1,0 +1,174 @@
+[17:16:28] [Server thread/INFO]: Starting minecraft server version 1.14.4
+[17:16:28] [Server thread/INFO]: Loading properties
+[17:16:29] [Server thread/INFO]: This server is running Paper version git-Paper-226 (MC: 1.14.4) (Implementing API version 1.14.4-R0.1-SNAPSHOT)
+[17:16:29] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[17:16:29] [Server thread/INFO]: Using 4 threads for Netty based IO
+[17:16:29] [Server thread/INFO]: Debug logging is disabled
+[17:16:29] [Server thread/INFO]: Default game type: SURVIVAL
+[17:16:29] [Server thread/INFO]: Generating keypair
+[17:16:30] [Server thread/INFO]: Starting Minecraft server on *:25699
+[17:16:30] [Server thread/INFO]: Using epoll channel type
+[17:16:37] [Server thread/INFO]: [TestPlugin] Loading TestPlugin v2
+[17:16:40] [Server thread/INFO]: [Driver] Direct driver instance 1703412208 created for server address localhost:7687
+[17:16:44] [Server thread/INFO]: [org.neo4j.ogm.metadata.DomainInfo] Starting Post-processing phase
+[17:16:44] [Server thread/INFO]: [org.neo4j.ogm.metadata.DomainInfo] Building byLabel lookup maps
+[17:16:44] [Server thread/INFO]: [org.neo4j.ogm.metadata.DomainInfo] Building interface class map for 0 classes
+[17:16:44] [Server thread/INFO]: [org.neo4j.ogm.metadata.DomainInfo] Post-processing complete
+[17:16:44] [Server thread/WARN]: java.lang.NullPointerException
+[17:16:44] [Server thread/WARN]: 	at java.lang.Class.isAssignableFrom(Native Method)
+[17:16:44] [Server thread/WARN]: 	at org.neo4j.ogm.driver.TypeSystem.lambda$supportsAsNativeType$0(TypeSystem.java:43)
+[17:16:44] [Server thread/WARN]: 	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:174)
+[17:16:44] [Server thread/WARN]: 	at java.util.HashMap$KeySpliterator.tryAdvance(HashMap.java:1577)
+[17:16:44] [Server thread/WARN]: 	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+[17:16:44] [Server thread/WARN]: 	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+[17:16:44] [Server thread/WARN]: 	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+[17:16:44] [Server thread/WARN]: 	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+[17:16:44] [Server thread/WARN]: 	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+[17:16:44] [Server thread/WARN]: 	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+[17:16:44] [Server thread/WARN]: 	at java.util.stream.ReferencePipeline.findAny(ReferencePipeline.java:536)
+[17:16:44] [Server thread/WARN]: 	at org.neo4j.ogm.driver.TypeSystem.supportsAsNativeType(TypeSystem.java:43)
+[17:16:44] [Server thread/WARN]: 	at org.neo4j.ogm.drivers.bolt.types.BoltNativeTypes.supportsAsNativeType(BoltNativeTypes.java:129)
+[17:16:44] [Server thread/WARN]: 	at org.neo4j.ogm.metadata.FieldInfo.<init>(FieldInfo.java:100)
+[17:16:44] [Server thread/WARN]: 	at org.neo4j.ogm.metadata.FieldsInfo.<init>(FieldsInfo.java:67)
+[17:16:44] [Server thread/WARN]: 	at org.neo4j.ogm.metadata.ClassInfo.<init>(ClassInfo.java:131)
+[17:16:44] [Server thread/WARN]: 	at org.neo4j.ogm.metadata.ClassInfo.<init>(ClassInfo.java:111)
+[17:16:44] [Server thread/WARN]: 	at org.neo4j.ogm.metadata.DomainInfo.lambda$addClass$1(DomainInfo.java:119)
+[17:16:44] [Server thread/WARN]: 	at java.util.HashMap.computeIfAbsent(HashMap.java:1127)
+[17:16:44] [Server thread/WARN]: 	at org.neo4j.ogm.metadata.DomainInfo.addClass(DomainInfo.java:119)
+[17:16:44] [Server thread/WARN]: 	at org.neo4j.ogm.metadata.DomainInfo.create(DomainInfo.java:91)
+[17:16:44] [Server thread/WARN]: 	at org.neo4j.ogm.metadata.MetaData.<init>(MetaData.java:57)
+[17:16:44] [Server thread/WARN]: 	at org.neo4j.ogm.session.SessionFactory.<init>(SessionFactory.java:114)
+[17:16:44] [Server thread/WARN]: 	at org.neo4j.ogm.session.SessionFactory.<init>(SessionFactory.java:100)
+[17:16:44] [Server thread/WARN]: 	at org.neo4j.ogm.session.SessionFactory.<init>(SessionFactory.java:89)
+[17:16:44] [Server thread/WARN]: 	at at.pl4yingnight.testplugin.database.Neo4j.conntect(Neo4j.java:27)
+[17:16:44] [Server thread/WARN]: 	at at.pl4yingnight.testplugin.TestPlugin.onLoad(TestPlugin.java:34)
+[17:16:44] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.loadPlugins(CraftServer.java:360)
+[17:16:44] [Server thread/WARN]: 	at net.minecraft.server.v1_14_R1.DedicatedServer.init(DedicatedServer.java:226)
+[17:16:44] [Server thread/WARN]: 	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:876)
+[17:16:44] [Server thread/WARN]: 	at java.lang.Thread.run(Thread.java:748)
+[17:16:44] [Server thread/INFO]: [TestPlugin] Loaded
+[17:16:44] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:16:44] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17:16:44] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[17:16:44] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[17:16:44] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[17:16:44] [Server thread/INFO]: Preparing level "world"
+[17:16:44] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[17:16:48] [Server thread/INFO]: Loaded 6 recipes
+[17:16:48] [Server thread/INFO]: -------- World Settings For [world] --------
+[17:16:48] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:16:48] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:16:48] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:16:48] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:16:48] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:16:48] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:16:48] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[17:16:48] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[17:16:48] [Server thread/INFO]: Potato Growth Modifier: 100%
+[17:16:48] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:16:48] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:16:48] [Server thread/INFO]: Vine Growth Modifier: 100%
+[17:16:48] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[17:16:48] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[17:16:48] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[17:16:48] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[17:16:48] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[17:16:48] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[17:16:48] [Server thread/INFO]: Mob Spawn Range: 8
+[17:16:48] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:16:48] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[17:16:48] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[17:16:48] [Server thread/INFO]: Max TNT Explosions: 100
+[17:16:48] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:16:48] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[17:16:48] [Server thread/INFO]: View Distance: 10
+[17:16:48] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:16:48] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:16:48] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:16:48] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:16:48] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:16:48] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[17:16:48] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:16:48] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:16:48] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:16:48] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:16:48] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:16:48] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:16:48] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[17:16:48] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[17:16:48] [Server thread/INFO]: Potato Growth Modifier: 100%
+[17:16:48] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:16:48] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:16:48] [Server thread/INFO]: Vine Growth Modifier: 100%
+[17:16:48] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[17:16:48] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[17:16:48] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[17:16:48] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[17:16:48] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[17:16:48] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[17:16:48] [Server thread/INFO]: Mob Spawn Range: 8
+[17:16:48] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:16:48] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[17:16:48] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[17:16:48] [Server thread/INFO]: Max TNT Explosions: 100
+[17:16:48] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:16:48] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[17:16:48] [Server thread/INFO]: View Distance: 10
+[17:16:48] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:16:48] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:16:48] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:16:48] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:16:48] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:16:48] [Server thread/INFO]: Preparing start region for dimension 'world'/minecraft:overworld
+[17:16:49] [Server thread/INFO]: Preparing spawn area: 0%
+[17:16:49] [Server thread/INFO]: Preparing spawn area: 0%
+[17:16:49] [Server thread/INFO]: Preparing spawn area: 0%
+[17:16:50] [Server thread/INFO]: Preparing spawn area: 53%
+[17:16:55] [Server-Worker-3/INFO]: Preparing spawn area: 81%
+[17:16:55] [Server-Worker-1/INFO]: Preparing spawn area: 81%
+[17:16:55] [Server-Worker-1/INFO]: Preparing spawn area: 81%
+[17:16:55] [Server-Worker-1/INFO]: Preparing spawn area: 81%
+[17:16:55] [Server-Worker-1/INFO]: Preparing spawn area: 81%
+[17:16:55] [Server-Worker-1/INFO]: Preparing spawn area: 81%
+[17:16:55] [Server-Worker-1/INFO]: Preparing spawn area: 81%
+[17:16:55] [Server-Worker-1/INFO]: Preparing spawn area: 81%
+[17:16:55] [Server-Worker-1/INFO]: Preparing spawn area: 81%
+[17:16:55] [Server-Worker-2/INFO]: Preparing spawn area: 100%
+[17:16:55] [Server-Worker-2/INFO]: Preparing spawn area: 100%
+[17:16:56] [Server-Worker-2/INFO]: Preparing spawn area: 100%
+[17:16:56] [Server thread/INFO]: Preparing spawn area: 100%
+[17:16:57] [Server-Worker-2/INFO]: Preparing spawn area: 100%
+[17:16:57] [Server-Worker-3/INFO]: Preparing spawn area: 100%
+[17:16:58] [Server thread/INFO]: Preparing spawn area: 100%
+[17:16:58] [Server-Worker-3/INFO]: Preparing spawn area: 100%
+[17:16:59] [Server-Worker-3/INFO]: Preparing spawn area: 100%
+[17:16:59] [Server-Worker-4/INFO]: Preparing spawn area: 100%
+[17:17:00] [Server-Worker-2/INFO]: Preparing spawn area: 100%
+[17:17:00] [Server-Worker-2/INFO]: Preparing spawn area: 100%
+[17:17:01] [Server thread/INFO]: Preparing spawn area: 100%
+[17:17:01] [Server-Worker-4/INFO]: Preparing spawn area: 100%
+[17:17:02] [Server-Worker-4/INFO]: Preparing spawn area: 100%
+[17:17:02] [Server thread/INFO]: Loaded 441 spawn chunks for world world
+[17:17:02] [Server thread/INFO]: Time elapsed: 13986 ms
+[17:17:02] [Server thread/INFO]: Preparing start region for dimension 'world_the_end'/minecraft:the_end
+[17:17:02] [Server thread/INFO]: Preparing spawn area: 0%
+[17:17:03] [Server-Worker-3/INFO]: Preparing spawn area: 100%
+[17:17:03] [Server-Worker-1/INFO]: Preparing spawn area: 100%
+[17:17:04] [Server thread/INFO]: Preparing spawn area: 100%
+[17:17:04] [Server-Worker-1/INFO]: Preparing spawn area: 100%
+[17:17:05] [Server thread/INFO]: Loaded 441 spawn chunks for world world_the_end
+[17:17:05] [Server thread/INFO]: Time elapsed: 2496 ms
+[17:17:05] [Server thread/INFO]: [TestPlugin] Enabling TestPlugin v2
+[17:17:05] [Server thread/INFO]: [TestPlugin] Enabled
+[17:17:05] [Server thread/INFO]: Done (20.828s)! For help, type "help"
+[17:17:05] [Server thread/INFO]: Stopping server
+[17:17:05] [Server thread/INFO]: [TestPlugin] Disabling TestPlugin v2
+[17:17:05] [Server thread/INFO]: [TestPlugin] Disabled
+[17:17:05] [Server thread/INFO]: Saving players
+[17:17:05] [Server thread/INFO]: Saving worlds
+[17:17:05] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[17:17:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[17:17:06] [Server thread/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
+[17:17:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:17:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[17:17:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved

@@ -1,0 +1,9 @@
+# Auto-generated plugin.yml, generated at 2020/01/11 17:06:30 by org.bukkit.plugin.java.annotation.PluginAnnotationProcessor
+
+main: at.pl4yingnight.testplugin.TestPlugin
+name: TestPlugin
+version: '2'
+author: Pl4yingNight
+commands: {}
+permissions: {}
+api-version: '1.13'

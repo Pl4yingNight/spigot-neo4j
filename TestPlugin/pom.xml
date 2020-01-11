@@ -5,7 +5,7 @@
 
 	<groupId>at.pl4yingnight</groupId>
 	<artifactId>TestPlugin</artifactId>
-	<version>1.14-1</version>
+	<version>1.14-2</version>
 	<packaging>jar</packaging>
 
 	<name>TestPlugin</name>
@@ -36,18 +36,18 @@
 		<dependency>
 			<groupId>org.neo4j</groupId>
 			<artifactId>neo4j-ogm-core</artifactId>
-			<version>3.2.3</version>
+			<version>3.2.5</version>
 		</dependency>
 		<dependency>
 			<groupId>org.neo4j</groupId>
 			<artifactId>neo4j-ogm-bolt-driver</artifactId>
-			<version>3.2.3</version>
+			<version>3.2.5</version>
 			<scope>runtime</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.neo4j</groupId>
 			<artifactId>neo4j-ogm-bolt-native-types</artifactId>
-			<version>3.2.3</version>
+			<version>3.2.5</version>
 			<scope>runtime</scope>
 		</dependency>
 		<dependency>
