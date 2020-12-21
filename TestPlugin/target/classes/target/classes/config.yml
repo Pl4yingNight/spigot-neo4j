@@ -1,8 +1,0 @@
-databases:
-  redis:
-    address: "redis://127.0.0.1:6379"
-    password: "PRmuYKxAaWCByLbFSeOJPY5LqUATQo3E2zZKGDjpTkI96gUX7JOC4NEvGZlNcMMFsdDS8BfWVrRX10H"
-  neo4j:
-    address: "bolt://localhost:7687"
-    user: "neo4j"
-    password: "LetItSnow"

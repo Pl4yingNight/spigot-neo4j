@@ -1,0 +1,33 @@
+nodeId: ""
+debug: false
+mcsync:
+  health: true
+  absorption: true
+  air: true
+  xp: true
+  food: true
+  saturation: true
+databases:
+  redis:
+    address: "redis://127.0.0.1:6379"
+    password: ""
+  neo4j:
+    address: "bolt://localhost"
+    user: ""
+    password: ""
+messages:
+  player_data_loading_error: "Data can't be loaded, please contact support and try again later!"
+  player_data_reloading_error: "Error on Reload please rejoin!"
+  player_data_login_msg: "You are free to roam!"
+  player_data_logout_msg: "Saving! Please hold still!"
+  player_data_reload_msg: "Reloading your data! You may feel weird..."
+dimensions:
+  overworld:
+    enabled: true
+    file: "world"
+  nether:
+    enabled: true
+    file: "world_nether"
+  end:
+    enabled: true
+    file: "world_the_end"
